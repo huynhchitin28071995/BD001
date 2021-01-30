@@ -1,0 +1,16 @@
+GIT
+git status
+git add .
+git add .. <file> <file>
+git diff <file>
+
+git checkout ..
+get checkout <branch>
+git checkout -b <branch>
+
+git fetch
+git pull
+git push -u origin <branch>
+
+git config --global user.email <email>
+git config --global user.name <username>

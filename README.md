@@ -43,3 +43,11 @@ rails routes
 touch .gitignore
 */node_modules
 */tmp
+
+git add .
+git commit -m 'hello world project'
+git push -u origin main
+//To install node_modules if not present.
+yarn install 
+//Install gems at home
+bundle/bundle install

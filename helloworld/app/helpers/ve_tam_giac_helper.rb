@@ -1,0 +1,2 @@
+module VeTamGiacHelper
+end

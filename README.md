@@ -25,3 +25,21 @@ Hash:
     - {name:'ab',class:'dev',address:'nbk',year:'2021'}
     - H[:name] truy xuat theo phan tu
 
+NodeJS:
+sudo curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install --lts
+gem install rails -v 6.1.0
+rails new -T helloworld
+sudo apt install libsqlite3-dev
+sudo apt install yarn
+rails webpacker:install
+rails s
+rails s -p 5000
+rails -T
+rails g controller hello index
+rails routes
+
+
+touch .gitignore
+*/node_modules
+*/tmp

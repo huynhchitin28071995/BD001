@@ -31,8 +31,15 @@ nvm install --lts
 gem install rails -v 6.1.0
 rails new -T helloworld
 sudo apt install libsqlite3-dev
+
+curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt install yarn
+
 rails webpacker:install
+nano Gemfile -> 2.7.2
+rbenv local 2.7.2
+rbenv rehash
 rails s
 rails s -p 5000
 rails -T

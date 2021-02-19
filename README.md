@@ -58,3 +58,8 @@ git push -u origin main
 yarn install 
 //Install gems at home
 bundle/bundle install
+
+
+git clone https://github.com/huynhchitin28071995/BD001
+
+rails webpacker:install

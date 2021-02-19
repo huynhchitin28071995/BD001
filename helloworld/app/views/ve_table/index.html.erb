@@ -1,0 +1,14 @@
+<table>
+<% for i in (0..15) do %>
+<%  if i % 4 == 0 %>
+    <tr>
+<% end %>
+    <td><%=i%></td>
+<% end %>
+</table>
+
+<table>
+<%=@table%>
+<<%=@br%>>
+something under a new line
+</table>

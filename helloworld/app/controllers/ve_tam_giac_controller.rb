@@ -1,9 +1,9 @@
 class VeTamGiacController < ApplicationController
   def index
     @index_output = ''
-    for i in (0..4) do
+    (0..4).each do |i|
       puts 'Hien trong terminal'
-      @index_output = @index_output + '*'*i + '<br>'
+      @index_output = @index_output + '*' * i + '<br>'
     end
   end
 end

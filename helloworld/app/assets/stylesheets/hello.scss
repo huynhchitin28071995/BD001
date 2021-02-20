@@ -1,21 +1,3 @@
 // Place all the styles related to the hello controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
-// h1{
-//     color:green;
-// }
-// .greeting h1{
-//     color: red;
-// }
-
-.greeting{
-    h1{
-        color:blue;
-        &.hello{
-            color:red;
-        }
-        &.bye{
-            color: orange;
-        }
-    }
-}

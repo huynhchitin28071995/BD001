@@ -1,6 +1,5 @@
 class HelloController < ApplicationController
   def index
-    #@name = 'Tin'
-    @name = ['a','b','c','d']
+    @title_of_page = 'Trang chu'
   end
 end

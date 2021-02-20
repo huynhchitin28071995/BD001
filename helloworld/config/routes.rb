@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'user/signin'
   get 've_tam_giac/index'
   get 've_table/index'
   get 'hello/index'

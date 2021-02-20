@@ -63,3 +63,7 @@ bundle/bundle install
 git clone https://github.com/huynhchitin28071995/BD001
 
 rails webpacker:install
+
+unzip ngrok...
+./ngrok authtoken 1ojofxGBundHH8LvHqhhLFmUIqA_RPqy3AYeXnMuZtRyd6p3
+./ngrok http 3000

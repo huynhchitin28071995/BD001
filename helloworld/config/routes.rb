@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'users/signin'
+  get 'users/profile'
   get 'user/signin'
   get 've_tam_giac/index'
   get 've_table/index'

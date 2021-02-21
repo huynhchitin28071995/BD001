@@ -67,3 +67,12 @@ rails webpacker:install
 unzip ngrok...
 ./ngrok authtoken 1ojofxGBundHH8LvHqhhLFmUIqA_RPqy3AYeXnMuZtRyd6p3
 ./ngrok http 3000
+
+2 cach tao controller: 
+    rails g controller users: khong co front-end
+    rails g controller users signin signout
+
+https://guides.rubyonrails.org/action_vew_helpers.html#formhelper
+https://api.rubyonrails.org/classes/DateTime.html
+
+rails c

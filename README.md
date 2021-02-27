@@ -76,3 +76,7 @@ https://guides.rubyonrails.org/action_vew_helpers.html#formhelper
 https://api.rubyonrails.org/classes/DateTime.html
 
 rails c
+
+BT: lam CV.
+    - cv-template.com/en/account/choose-template
+    - cho len root 'home#index'

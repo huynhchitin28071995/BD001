@@ -1,0 +1,16 @@
+Full Name: Quan Ly Hoc Vien
+Project Name: QLHV
+Framework: Rails 6, NodeJS
+DB: SQLite -> PostgreSQL
+Functionalities: 
+    - Luu ds hoc vien.
+    - Show DS hoc vien.
+    - Thay doi thong tin hoc vien.
+    - Trang admin
+    - Trang client (End User)
+        + Profile
+        + Thanh tich hoc
+        + Thoi khoa bieu
+        + ...
+
+botreetechnologies.com/blog/rails-6-jquery-upgrade-with-webpacker/

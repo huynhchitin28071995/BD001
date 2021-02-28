@@ -14,3 +14,33 @@ Functionalities:
         + ...
 
 botreetechnologies.com/blog/rails-6-jquery-upgrade-with-webpacker/
+
+QLHV:
+    - Hoc vien:
+        + Ten: 
+            * First name, last name, short name (alias)
+                . short_name
+                . first_name
+                . last_name
+                => attributes/fields/columns
+        + Lop:
+            * Ten lop.
+                . class_name
+        + Ngay Sinh
+            * DD/MM/YYYY
+        + CMND/CC
+            * 1 day so tren CMND
+        + SDT
+            * co the luu nhieu so
+        + TKB
+            * lich hoc theo tuan/thang/khoa
+        + Lich su hoc phi
+            * Thoi diem dong hoc phi, ngay dong, con thieu,...
+        + Email
+            * Thong tin de he thong lien lac.
+        + ...
+    - Chuc nang:
+        + Doc HV:
+        + Sua HV:
+        + Xoa HV:
+        + Them HV:

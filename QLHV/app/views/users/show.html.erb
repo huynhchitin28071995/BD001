@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First n:</strong>
+  <%= @user.first_n %>
+</p>
+
+<p>
+  <strong>Last n:</strong>
+  <%= @user.last_n %>
+</p>
+
+<p>
+  <strong>Short n:</strong>
+  <%= @user.short_n %>
+</p>
+
+<p>
+  <strong>Class n:</strong>
+  <%= @user.class_n %>
+</p>
+
+<p>
+  <strong>Bod:</strong>
+  <%= @user.bod %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @user.contact %>
+</p>
+
+<p>
+  <strong>Cmnd:</strong>
+  <%= @user.cmnd %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

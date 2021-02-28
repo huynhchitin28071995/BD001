@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Users</h1>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th class="scope">STT</th>
+      <th class="scope">Full Name</th>
+      <th class="scope">Short n</th>
+      <th class="scope">Class n</th>
+      <th class="scope">Bod</th>
+      <th class="scope">Email</th>
+      <th class="scope">Contact</th>
+      <th class="scope">Cmnd</th>
+      
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @users.each_with_index do |user, index| %>
+      <%=render "users/user", user: user, index: index %>
+      <%=render partial: 'users/user', locals: {user: user, index: index} %>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New User', new_user_path %>

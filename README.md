@@ -74,9 +74,22 @@ unzip ngrok...
 
 https://guides.rubyonrails.org/action_vew_helpers.html#formhelper
 https://api.rubyonrails.org/classes/DateTime.html
+https://guides.rubyonrails.org/active_record_basics.html
+
 
 rails c
 
 BT: lam CV.
     - cv-template.com/en/account/choose-template
     - cho len root 'home#index'
+BT: lam lai form cho project
+
+
+git checkout -b hoc-vien
+git branch
+rails g scaffold users first_n:string last_n:string short_n:string class_n:string bod:datetime email:string contact:string cmnd:string
+
+export RAILS_ENV=development
+echo $RAILS_ENV
+
+rails routes | grep users

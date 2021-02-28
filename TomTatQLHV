@@ -40,7 +40,8 @@ QLHV:
             * Thong tin de he thong lien lac.
         + ...
     - Chuc nang:
-        + Doc HV:
-        + Sua HV:
-        + Xoa HV:
-        + Them HV:
+        + Doc HV: R
+        + Sua HV: U
+        + Xoa HV: D
+            * confirm?
+        + Them HV: C

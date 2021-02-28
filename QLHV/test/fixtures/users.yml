@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  first_n: MyString
+  last_n: MyString
+  short_n: MyString
+  class_n: MyString
+  bod: 2021-02-28 14:20:40
+  email: MyString
+  contact: MyString
+  cmnd: MyString
+
+two:
+  first_n: MyString
+  last_n: MyString
+  short_n: MyString
+  class_n: MyString
+  bod: 2021-02-28 14:20:40
+  email: MyString
+  contact: MyString
+  cmnd: MyString

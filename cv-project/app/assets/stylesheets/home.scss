@@ -1,3 +1,42 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+*{
+    box-sizing: border-box;
+}
+.avatar {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+#left-col{
+    background: linear-gradient(to bottom right, #008080 0%, #00b3b3 100%);
+    
+    color:white;
+}
+#contact{
+    text-align: center;
+}
+#contact label{
+    display: block;
+}
+
+#skill-set .progress-bars{
+    padding: 0 10px;
+    progress {
+        border-radius: 7px; 
+        width: 80%;
+        height: 16px;
+        
+        box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+      }
+      progress::-webkit-progress-bar {
+        background-color: white;
+        border-radius: 7px;
+      }
+      progress::-webkit-progress-value {
+        background: linear-gradient(to right, #ffb3b3, #e60000);
+        border-radius: 7px;
+      
+      }
+      
+}

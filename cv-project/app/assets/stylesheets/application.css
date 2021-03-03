@@ -14,3 +14,9 @@
  *= require_self
  *= require bootstrap
 */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin-top: 20px;
+}

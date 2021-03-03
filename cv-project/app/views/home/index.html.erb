@@ -1,46 +1,12 @@
-<div class='container'>
+<div class='container' style='margin-top: 20px'>
     <div class='row'>
         <div id='left-col' class='col-sm-3'>
-            <div class='picture-frame'>
-                <%= image_tag 'avatar-men.jpg', class: 'avatar w-100', alt: 'My avatar' %>
-                <h2 class='font-weight-bold text-uppercase text-center'>Huỳnh Chí Tín</h2>
-            </div>
-
-            <div id='contact'>
-                <h2>Phone number</h2>
-                <p>0986562460</p>
-                <h2>Email</h2>
-                <p>huynhchitin28071995@gmail.com</p>
-                <h2>Address</h2>
-                <p>36 Bờ Bao Tân Thắng, P. Sơn Kỳ, Q. Tân Phú</p>
-                <h2>Online CV</h2>
-                <p>https://tin-cv.herokuapp.com/</p>
-                <div id='skill-set'>
-                    <h2>Skill set</h2>
-                    <div class='progress-bars'>
-                    <label for="java">Java Core + Spring MVC + MySQL + Hibernate</label>
-                        <progress id="java" value="70" max="100"> 70% </progress> 
-                    <label for="ruby-on-rails">Ruby On Rails</label>
-                        <progress id="ruby-on-rails" value="15" max="100"> 15% </progress>
-                    <label for="html/css">HTML/CSS</label>
-                        <progress id="html/css" value="70" max="100"> 70% </progress>
-                    <label for="c++">C++</label>
-                        <progress id="c++" value="40" max="100"> 40% </progress>
-                </div>
-            </div>
-        <div class='clearfix'></div>
+            <%= render 'left-col-content' %>
+    
         </div>
-        </div>
+        
         <div id='right-col' class='col-sm-9'>
-            <div>
-            <h1>Experience</h1>
-            </div>
-             <div>
-            <h1>Experience</h1>
-            </div>
-             <div>
-            <h1>Experience</h1>
-            </div>
+           <%= render 'right-col-content' %>
         </div>
     </div>
 </div>

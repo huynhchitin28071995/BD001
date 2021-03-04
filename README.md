@@ -93,3 +93,5 @@ export RAILS_ENV=development
 echo $RAILS_ENV
 
 rails routes | grep users
+
+git pull heroku master

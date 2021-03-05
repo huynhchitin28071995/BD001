@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .avatar {
-    border-radius: 50%;
     margin-top: 10px;
 }
 #left-col{
@@ -43,13 +42,41 @@
     }
 }
 #right-col{
-    padding: 50px 20px 20px 20px;
-    background-color: aliceblue;
+    padding: 50px 40px 20px 40px;
+    background-color: #f9f5d2;
+    color: #404040;
+    text-align: justify;
+
+    a{
+        text-decoration: none;
+        font-weight: 400;
+    }
+    a:hover{
+        color:darkcyan;
+        font-weight: bold;
+    }
+    h1{
+        color: darkcyan;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    p{
+        font-weight: 500;
+        font-size: 1.1em;
+    }
+    li{
+        list-style-type: '- ';
+        line-height: 1.5;
+    }
+    .horizontal-line{
+        background-color: darkcyan;
+        height: 2px;
+    }
     .role{
         font-weight: bold;
         font-style: oblique;
     }
     .goal{
         font-style: italic;
+        font-weight: 400;
     }
 }

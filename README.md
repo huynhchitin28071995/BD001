@@ -101,10 +101,14 @@ tao moi quan he giua 2 table: models/user
 
 ClassInfo.create(code: 'BD001',counter: 100, name: 'Fullstack RoR')
 
+create table:
+    - rails g model Profile phone:string schedule:string
 rename:
     - rails g migration rename_class_n_to_class_id_from_user
     - db/migrate: def rename_column :users, :class_n, :class_info_id end
 change type:
     - rails g migration change_class_info_id_from_string_to_integer
     - db/migrate: def change change_column :users, :class_info_id, :integer end
+add column:
+    - rails g migration AddProfileToUser profile_id:integer
 => rails db:migrate

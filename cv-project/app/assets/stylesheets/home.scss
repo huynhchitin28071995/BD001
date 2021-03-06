@@ -2,14 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.avatar {
-    margin-top: 10px;
-}
+
 #left-col{
     background: linear-gradient(to bottom right, #008080 0%, #00b3b3 100%);
     text-align: center;
     color:white;
     padding-top: 10px;
+    a{
+        color: white;
+    }
+
+    .avatar {
+        margin-top: 10px;
+    
+    }
     #contact{
         text-align: center;
     }
@@ -21,10 +27,12 @@
     }
     #skill-set .progress-bars{
         padding: 0 10px;
-        
+        label{
+            text-align: left;
+        }
         progress {
             border-radius: 7px; 
-            width: 80%;
+            width: 100%;
             height: 16px;
             
             box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );

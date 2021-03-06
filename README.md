@@ -95,3 +95,16 @@ echo $RAILS_ENV
 rails routes | grep users
 
 git pull heroku master
+
+tao moi quan he giua 2 table: models/user
+    - belongs_to :class_info, class_name: "class_info", foreign_key: "class_info_id"
+
+ClassInfo.create(code: 'BD001',counter: 100, name: 'Fullstack RoR')
+
+rename:
+    - rails g migration rename_class_n_to_class_id_from_user
+    - db/migrate: def rename_column :users, :class_n, :class_info_id end
+change type:
+    - rails g migration change_class_info_id_from_string_to_integer
+    - db/migrate: def change change_column :users, :class_info_id, :integer end
+=> rails db:migrate

@@ -112,3 +112,10 @@ change type:
 add column:
     - rails g migration AddProfileToUser profile_id:integer
 => rails db:migrate
+
+validation:
+    - validates_presence_of :first_n, on: :create, message: "can't be blank"
+    - validates :last_n, :contact, presence: true
+    - validates :first_n, length: {minimum:3, maximum:3}
+
+annotate_models: gem install annotate

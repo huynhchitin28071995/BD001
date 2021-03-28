@@ -95,3 +95,15 @@ echo $RAILS_ENV
 rails routes | grep users
 
 git pull heroku master
+
+create alias
+cd cho_thuoc
+bundle add devise
+rails g devise:install //check file if it is text//do what it says
+rails generate devise User
+rails db:migrate
+rails g annotate:install
+gem install annotate
+bundle exec annotate
+rails g controller products index
+product_controller.rb -> before_action :authenticate_user!

@@ -109,4 +109,11 @@ bundle exec annotate
 rails g controller products index
 product_controller.rb -> before_action :authenticate_user!
 
+rails generate devise:views users
+rails generate devise:controllers users
+update routes file.
+create scss in app/javascript/_auth.scss
+@import './auth.scss' in application.scss
+
+
 - bo sung giao dien Dang nhap, Dang ky!!!!!
